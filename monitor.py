@@ -27,6 +27,7 @@ class MonitorPool:
 
 		req_data = self.send_request(url)
 		json_obj = self.get_json(req_data)
+
 		return json_obj
 
 
@@ -36,6 +37,6 @@ if(__name__=="__main__"):
 		mp = MonitorPool()
 		d = mp.get_stats(1)
 
-		print(d)
+		print(json.dumps(d, indent = 2))
 
-		time.sleep(1)
+		time.sleep(60)
