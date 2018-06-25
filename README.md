@@ -1,1 +1,1 @@
-# Mining-Pool-Monitoring-Software
+# Mining Pool Monitoring Software
