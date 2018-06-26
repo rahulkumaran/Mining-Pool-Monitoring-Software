@@ -2,6 +2,8 @@ import json
 import requests as r
 import time
 import logging
+import pandas as pd
+
 
 class MonitorPool:
 	def __init__(self, choice=1):
@@ -18,12 +20,7 @@ class MonitorPool:
 		url = ""
 		if(self.choice == 1):
 			url += self.url + "stats"
-		'''elif(self.choice == 2):
-			url += self.url + "pool_stats"
-		elif(self.choice == 3):
-			url += self.url + "live_stats"
-		elif(self.choice == 4):
-			url += self.url + "getblocksstats"'''
+		
 		else:
 			print("Wrong option entered!")
 			return
@@ -62,14 +59,18 @@ class MonitorPool:
 			logging.info("Hashrate: "+str(stats_json["pools"]["litecoin"]["hashrate"]))
 			logging.info("----------------------------------------")
 
+		return
+
+	def store_data_csv(csv):
+		return	
 
 		
 
 if(__name__=="__main__"):
 	while(True):
 
-		mp = MonitorPool(2)
-		d = mp.get_stats_data()
+		mp = MonitorPool()
+		mp.get_stats_data()
 		time.sleep(900)
 
 		
