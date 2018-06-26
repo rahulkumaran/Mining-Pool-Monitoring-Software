@@ -33,11 +33,10 @@ class MonitorPool:
 
 	def get_stats_data(self):
 		stats_json= self.get_stats_json()
-		#print(time.ctime(stats_json["time"]))
-		print(json.dumps(stats_json, indent=2))
+		#print(json.dumps(stats_json, indent=2))
 		if(self.choice==1):
 			
-			
+			print(time.ctime(stats_json["time"]))
 			print("Total Paid:",stats_json["pools"]["litecoin"]["poolStats"]["totalPaid"])
 			print("Valid Blocks:",stats_json["pools"]["litecoin"]["poolStats"]["validBlocks"])
 			print("Orphaned:",stats_json["pools"]["litecoin"]["blocks"]["orphaned"])
