@@ -60,5 +60,5 @@ class MonitorPool:
 
 		return
 
-	def store_data_csv(csv):
+	def store_data_csv(file_name):
 		return		
