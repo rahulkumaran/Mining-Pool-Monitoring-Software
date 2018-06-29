@@ -6,6 +6,7 @@ if(__name__=="__main__"):
 	while(True):
 
 		mp = MonitorPool()
-		mp.get_stats_data()
-		time.sleep(900)
+		stats_json = mp.get_stats_data()
+		mp.store_data_csv(stats_json)
+		time.sleep(0.1)
 
