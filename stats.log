@@ -1,1 +1,79 @@
-
+INFO:root:Sat Jun 30 00:42:02 2018
+INFO:root:Total Paid: 0
+INFO:root:Valid Blocks: 0
+INFO:root:Orphaned: 0
+INFO:root: Confirmed: 0
+INFO:root:Pending: 0
+INFO:root:Hashrate: 0
+INFO:root:----------------------------------------
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 107.173.118.210
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/stats HTTP/1.1" 200 None
+INFO:root:Sat Jun 30 00:42:02 2018
+INFO:root:Total Paid: 0
+INFO:root:Valid Blocks: 0
+INFO:root:Orphaned: 0
+INFO:root: Confirmed: 0
+INFO:root:Pending: 0
+INFO:root:Hashrate: 0
+INFO:root:----------------------------------------
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 107.173.118.210
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/stats HTTP/1.1" 200 None
+INFO:root:Sat Jun 30 00:42:02 2018
+INFO:root:Total Paid: 0
+INFO:root:Valid Blocks: 0
+INFO:root:Orphaned: 0
+INFO:root: Confirmed: 0
+INFO:root:Pending: 0
+INFO:root:Hashrate: 0
+INFO:root:----------------------------------------
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 107.173.118.210
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/stats HTTP/1.1" 200 None
+INFO:root:Sat Jun 30 00:42:02 2018
+INFO:root:Total Paid: 0
+INFO:root:Valid Blocks: 0
+INFO:root:Orphaned: 0
+INFO:root: Confirmed: 0
+INFO:root:Pending: 0
+INFO:root:Hashrate: 0
+INFO:root:----------------------------------------
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 107.173.118.210
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/stats HTTP/1.1" 200 None
+INFO:root:Sat Jun 30 00:42:02 2018
+INFO:root:Total Paid: 0
+INFO:root:Valid Blocks: 0
+INFO:root:Orphaned: 0
+INFO:root: Confirmed: 0
+INFO:root:Pending: 0
+INFO:root:Hashrate: 0
+INFO:root:----------------------------------------
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 107.173.118.210
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/stats HTTP/1.1" 200 None
+INFO:root:Sat Jun 30 00:42:02 2018
+INFO:root:Total Paid: 0
+INFO:root:Valid Blocks: 0
+INFO:root:Orphaned: 0
+INFO:root: Confirmed: 0
+INFO:root:Pending: 0
+INFO:root:Hashrate: 0
+INFO:root:----------------------------------------
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 107.173.118.210
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/stats HTTP/1.1" 200 None
+INFO:root:Sat Jun 30 00:42:02 2018
+INFO:root:Total Paid: 0
+INFO:root:Valid Blocks: 0
+INFO:root:Orphaned: 0
+INFO:root: Confirmed: 0
+INFO:root:Pending: 0
+INFO:root:Hashrate: 0
+INFO:root:----------------------------------------
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 107.173.118.210
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/stats HTTP/1.1" 200 None
+INFO:root:Sat Jun 30 00:42:02 2018
+INFO:root:Total Paid: 0
+INFO:root:Valid Blocks: 0
+INFO:root:Orphaned: 0
+INFO:root: Confirmed: 0
+INFO:root:Pending: 0
+INFO:root:Hashrate: 0
+INFO:root:----------------------------------------
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 107.173.118.210
