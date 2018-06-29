@@ -3,6 +3,7 @@ import requests as r
 import time
 import logging
 import pandas as pd
+import os
 
 
 class MonitorPool:
@@ -58,7 +59,17 @@ class MonitorPool:
 			logging.info("Hashrate: "+str(stats_json["pools"]["zen"]["hashrate"]))
 			logging.info("----------------------------------------")
 
-		return
+		return stats_json
 
-	def store_data_csv(file_name):
+	def store_data_csv(self, stats_json):
+		data = [time.ctime(stats_json["time"]), stats_json["pools"]["zen"]["poolStats"]["totalPaid"],stats_json["pools"]["zen"]["poolStats"]["validBlocks"], stats_json["pools"]["zen"]["blocks"]["orphaned"],stats_json["pools"]["zen"]["blocks"]["confirmed"], stats_json["pools"]["zen"]["blocks"]["pending"], stats_json["pools"]["zen"]["hashrate"]]
+		df = pd.DataFrame(data)
+		'''existing_data = pd.read_csv("stats.csv")
+		pd.concat([existing_data, df])'''
+		df = df.T
+		cols = ["time", "totalpaid", "validblocks", "orphaned", "confirmed", "pending", "hashrate"]
+		if (os.path.isfile("stats.csv")):
+			df.to_csv("stats.csv", mode = 'a', header = False, index = False)
+		else:			
+			df.to_csv("stats.csv", header = cols, index= False)
 		return		
