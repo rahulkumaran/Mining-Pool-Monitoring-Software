@@ -8,4 +8,4 @@ This is a project that might be case specific. In this case, it's specific to wh
 
 So, incase you're pool also exists on that platform and also your pool deals with mining of Litecoins, then you can freely use this software.
 
-## The development environment required for this project will soon be updated.
+## The development environment required for this project will soon be updated
