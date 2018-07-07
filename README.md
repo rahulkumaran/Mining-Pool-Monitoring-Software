@@ -17,4 +17,4 @@ Connecting to the Freeflo zencash pool
 `ccminer-x64 stratum+tcp://107.173.118.210:3032 -u (your wallet address) -p x `
 For example, `ccminer-x64 stratum+tcp://107.173.118.210:3032 -u znqubs78wbfGe9wgcv -p x`
 Now save the text file as a batch file(with the .cmd extension)<br/>
-4. Run the batch file from your computer to connect to the pool and start mining zencash! The payments will be paid out to your swing wallet . You should see that the shares should be getting validated.<br/>
+4. Run the batch file from your computer to connect to the pool and start mining zencash! The payments will be paid out to your swing wallet . You are good to go if the shares are being validated.<br/>
