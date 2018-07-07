@@ -9,7 +9,7 @@ This is a project that might be case specific. In this case, it's specific to wh
 So, incase you're pool also exists on that platform and also your pool deals with mining of Litecoins, then you can freely use this software.
 
 ## The development environment required for this project will soon be updated.
-
+(For Windows Users)
 Connecting to the Freeflo zencash pool
 1. Set up a zencash wallet on your computer by downloading zencash swing UI wallet from GitHub. Run the wallet by running the zencashswingUIwallet.exe file in the root. (Remember your secret password and wallet address or copy it in a safe place) 
 2. Download any mining software (for example , ccminer-CUDA from GitHub https://github.com/tpruvot/ccminer/releases ) and extract the files in a specific place.
