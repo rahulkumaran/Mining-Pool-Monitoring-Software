@@ -12,7 +12,7 @@ So, incase you're pool also exists on that platform and also your pool deals wit
 (For Windows Users)
 Connecting to the Freeflo zencash pool
 1. Set up a zencash wallet on your computer by downloading zencash swing UI wallet from GitHub(https://github.com/ZencashOfficial/zencash-swing-wallet-ui). Run the wallet by running the zencashswingUIwallet.exe file in the root. Go to the 'own addresses tab' and save your wallet address somewhere safe for security purposes. (Remember your secret password and wallet address or copy it in a safe place) <br/>
-2. Download any mining software (for example , ccminer-CUDA from GitHub https://github.com/tpruvot/ccminer/releases ) and extract the files in a specific place.<br/>
+2. Download any mining software (for example , ccminer-CUDA from GitHub https://github.com/tpruvot/ccminer/releases) and extract the files in a specific place.<br/>
 3. Open a text file in extracted files folder and type in the following : 
 'ccminer-x64 stratum+tcp://107.173.118.210:3032 -u (your wallet address) -p x '
 Now save the text file as a batch file(with the .cmd extension)<br/>
